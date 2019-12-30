@@ -26,178 +26,24 @@ citiesL = {
 
 connections = {
     "ice": [
-        ["Falklands", "Buenos Aires"],
-        ["Santiago", "Buenos Aires"],
-        ["Resistencia", "Buenos Aires"],
-        ["Santiago", "Concepcion"],
-        ["Santiago", "Arica"],
-        ["Resistencia", "SantaCruz Sierra", "FranchuFranchu"],
-        ["Manna", "SantaCruz Sierra", "FranchuFranchu"],
-        // ["Manna", "Alteria", "FranchuFranchu"],
-        //["Alteria", "SantaCruz Sierra", "FranchuFranchu"],
-        //["Alteria", "Arica", "FranchuFranchu"], // Alteria is no more
-        ["Manna", "Arica", "FranchuFranchu"],
-        ["Lima", "Arica"],
-        ["Lima", "Quito"],
-        ["Montecarlo", "Quito"],
-        ["Montecarlo", "North Bogota", "FranchuFranchu"],
-
-        ["London", "Norwich"],
-        ["London", "Wales"],
-        ["Dublin", "Wales"],
-        ["Glasgow", "Wales"],
-
-        ["New York", "Wales"],
-        ["New York", "Chicago"],
-
-        // Greenland network
-        ["Summit Station", "LE2CASSETOUTcity"],
-        ["Summit Station", "FortIce"],
-        ["Summit Station", "ritenbenk"],
-        ["Summit Station", "Narvik"],
-        ["Summit Station", "Tasiilaq"],
-
-        ["Nya Asgard", "Visby"],
-        ["Nya Asgard", "Dread-Fort"],
-        ["Nya Asgard", "Kongsvinger"],
-        ["Hardanger", "Kongsvinger"],
-        ["BlackFall", "Visby"],
-        ["BlackFall", "Hiiumaa"],
-        ["BlackFall", "Arensburg"],
-        ["Jelgava", "Arensburg"],
-        ["Siauliai", "Arensburg"],
-        ["Siauliai", "Rietavas"],
-        ["Hiiumaa", "Tallinn"],
-        ["FixedMines", "Tallinn"],
-        ["FixedMines", "Sillamae"],
-
-        ["Glacier Town", "Gondwana", "ZeTrapz"],
-
-        ["Ayan", "LiaoYang"],
-        ["Sakha", "LiaoYang"],
-        ["Hyesan", "LiaoYang"],
-        ["Hyesan", "Changchung"],
-        ["Hyesan", "Jinzhou"],
-        ["Hyesan", "Busan"],
-
-        ["Pyongyang", "Seoul"],
-        ["Hyesan", "Seoul"],
-        ["Seoul", "Hyesan"],
-        ["Seoul", "Cheongju"],
-        ["Seoul", "Hanan"],
-        ["Seoul", "Jeju"],
-        ["Seoul", "Busan"],
-
-        // Indian network
-        // ["Ahmedabad", "Cheylon"],
-        ["Ahmedabad", "Mumbai"],
-        ["Shiroda", "Mumbai"],
-        ["Indian NH02-NH09 junction", "Male"],
-        ["Indian NH02-NH09 junction", "Shiroda"],
-        ["Indian NH02-NH09 junction", "Koramyst", "Loupiot0111#4538"],
-
-
-        ["Autumnshire", "Amarok", "DMKBoyz, Dictioo, BlueSupreme"],
-
-        // Australian network
-        ["Uluru-Kata Tjuta", "Port Forest"],
-        ["EndoCMouth", "Port Forest"],
-        ["EndoCMouth", "Perth"],
-        ["EndoCMouth", "Magadan"],
-        ["agentm", "Magadan"],
-
-        ["Uluru-Kata Tjuta", "Wells"],
-        ["Uluru-Kata Tjuta", "Banana"],
-        ["Port Hedland", "Banana"],
-        ["TheGoldenCity", "Banana"],
-        ["Uluru-Kata Tjuta", "UnityCity"],
-        ["Uluru-Kata Tjuta", "FrenchCity"],
-        ["Lcal Australia", "UnityCity"],
-        ["Lcal Australia", "Modern City"],
-        ["Lcal Australia", "Byzance"],
-        ["FortEmu", "Byzance"],
-        ["FortEmu", "FuzeCity"],
-        ["Ballarat", "FuzeCity"],
-        ["Ballarat", "Celestown"],
-        ["Tramadol", "Celestown"],
-        ["Tramadol", "Valais"],
-        ["Daestya", "Modern City"],
-        ["Daestya", "Suzaku"],
-        ["Ballarat", "Celestia"],
-        ["Zetta", "Celestia"],
-        ["Zetta", "Brisbane"],
-
-
-        ["Ballarat", "Suplex City"],
-        ["Faromix", "Suplex City"],
-        ["Faromix", "Ezaria"],
-        ["Oasis", "Ezaria"],
-
-        ["Faromix", "SerrasMind"],
-        ["Northern Rivers", "SerrasMind"],
-        ["Faromix", "Northern Rivers"],
-
-        ["Megapolis", "Port Forest"],
-        ["Megapolis", "Saladville"],
-        ["Weet-Bix", "Saladville"],
-        ["Weet-Bix", "Galactrice"],
-        ["Fortown", "Galactrice"],
-        ["Fortown", "Moudon"],
-        // End of australian network
-	
-	    ["Novasulfuria", "Buenos Aires"],
-
-        // Central USA network
-        ["Fort Worth", "San Antonio"],
-        ["Texas Militia", "San Antonio"],
-        ["Houston", "San Antonio"],
-        ["Oklahoma City", "San Antonio"],
-        ["Oklahoma City", "Fort Smith"],
-        ["USA #2 junction", "Fort Smith"],
-        ["Charlottesville", "USA #2 junction"],
-        ["Charlottesville", "Culpeper"],
-        ["USA #2 junction", "Apex"],
-        ["Jacksonville", "Apex"],
-        ["Jacksonville", "USA #1 junction"],
-        ["Nassau", "USA #1 junction"],
-        //["Asgard", "USA #1 junction"]
-
-        ["Oklahoma City", "New Omaha"],
-        ["Columbia", "New Omaha"],
-        ["Columbia", "Kansas City"],
-        ["Columbia", "Praire Du Chen"],
-
-
-
-
-    ],
-    "nether_ice": [
-        ["Amerindien", "North Bogota"],
-        ["Addis Ababa", "North Bogota"],
-        ["Amerindien", "Aruba"],
-        ["Amerindien", "Maralago"],
-        ["Amerindien", "Caribe Bay"],
-        ["Aruba", "Maralago"],
-        ["Maralago", "Caribe Bay"],
-        ["Carupano", "Caribe Bay"],
-        ["Carupano", "Trinidad-Tobago"],
-        ["Leeward Islands", "Trinidad-Tobago"],
-        ["Rio De Janeiro", "SantaCruz Sierra"],
+        ["Ahmedabad", "Mumbai"], //NH01
+        ["Shiroda", "Mumbai"], //NH02 a
+        ["Shiroda", "Male"], //NH02 b
+        ["Shiroda", "Koramyst"], //NH10
+	["Shiroda", "Crasmere"], //NH03
+	["Latur", "Mumbai"], //NH05a
+        ["Latur", "Akola"], //NH05b
+        ["Ahmedabad", "QuinnLand"], //NH07
+     	["Ahmedabad", "Houmt Souk"], //IH01 
+	["Ahmedabad", "Pasargadae"], //IH01
+	["Ahmedabad", "Harappa"], //NH08
+	["Male", "Baa Atoll"], //NH11
     ],
     "wip_ice": [
-
-        ["Ceylon", "Male", "indian7p#6837"],
-        ["Shiroda", "Crasmere"], 
-        ["Latur", "Crasmere"], 
-        ["Latur", "Mumbai"],
-        ["Latur", "Akola"], 
-        ["Ahmedabad", "QuinnLand"],
-        ["Ahmedabad", "Kanpur"],
-        ["Ahmedabad", "Houmt Souk"],
-        ["QuinnLand", "Sable", "☭ChristianRobloxManEcksdee☭#3728"],
-        ["Kanpur", "Tigers Nest", "Barbocity#8342"]
-    ],
-    "wip_nether_ice": [
+        ["Ceylon", "Male", "indian7p#6837"], //NH06
+        ["Latur", "Crasmere"], //NH04
+        ["Ahmedabad", "Kanpur"], //NH09
+	["Crasmere", "Bay City"], //NH12
     ]
 }
 
@@ -230,13 +76,13 @@ lineSeries = {
 
 lineAttrs = {
     "ice": {
-        stroke: "#286a91"
+        stroke: "#bfa161"
     },
     "nether_ice": {
         stroke: "#FF0000"
     },
     "wip_ice": {
-        stroke: "#286a91",
+        stroke: "#912c28",
         strokeDasharray: "0.1 0.4",
     }
 }
