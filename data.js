@@ -28,7 +28,7 @@ connections = {
     "ice": [
         ["Ahmedabad [HUB]", "Mumbai"], //NH01
         ["Shiroda", "Mumbai"], //NH02 a
-        ["Shiroda", "Male"], //NH02 b
+        ["South Shiroda Junction", "Male"], //NH02 b
 	["Shiroda", "South Shiroda Junction"], //NH10 a
         ["South Shiroda Junction", "Koramyst"], //NH10b
 	["Shiroda", "Crasmere"], //NH03
