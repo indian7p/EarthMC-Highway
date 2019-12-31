@@ -38,12 +38,12 @@ connections = {
         ["Latur", "Akola"], //NH05b
         ["Ahmedabad [HUB]", "QuinnLand"], //NH07
      	["Ahmedabad [HUB]", "East Muscat Junction"], //IH01a
-	["IndianOcean", "East Muscat Junction"], //IH01b
+	["Doha Junction", "East Muscat Junction"], //IH01b
 	["Doha Junction", "Houmt Souk"], //IH01c
 	["Doha Junction", "Pasargadae"], //IH03
 	["Ahmedabad [HUB]", "Harappa"], //NH08
 	["Male", "Baa Atoll"], //NH11
-	["East Muscat Junction", "IndianOcean"], //NH06
+	["East Muscat Junction", "IndianOcean"], //NH06 new
     ],
     "wip_ice": [
         ["Latur", "Crasmere"], //NH04
