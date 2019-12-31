@@ -19,6 +19,8 @@ citiesD = [
     {"x": 9291.0, "y": -4855.0, "name": "Doha Junction"},
     {"x": 13392.0, "y": -2768.0, "name": "South Shiroda Junction"},
     {"x": 20777.0, "y": -4446.0, "name": "Canton"},
+    {"x": 11223.0, "y": -4092.0, "name": "IndianOcean"},
+    {"x": 11211.0, "y": -4446.0, "name": "East Muscat Junction"},
 ]
 citiesL = {
 }
@@ -35,16 +37,16 @@ connections = {
 	["Latur", "Mumbai"], //NH05a
         ["Latur", "Akola"], //NH05b
         ["Ahmedabad [HUB]", "QuinnLand"], //NH07
-     	["Ahmedabad [HUB]", "Doha Junction"], //IH01a
-	["Doha Junction", "Houmt Souk"], //IH01b 
+     	["Ahmedabad [HUB]", "East Muscat Junction"], //IH01a
+	["IndianOcean", "East Muscat Junction"], //IH01b
+	["Doha Junction", "Houmt Souk"], //IH01c
 	["Doha Junction", "Pasargadae"], //IH03
 	["Ahmedabad [HUB]", "Harappa"], //NH08
 	["Male", "Baa Atoll"], //NH11
+	["East Muscat Junction", "IndianOcean"], //NH06
     ],
     "wip_ice": [
-        ["Ceylon", "Male", "indian7p#6837"], //NH06
         ["Latur", "Crasmere"], //NH04
-        ["Ahmedabad [HUB]", "Kanpur"], //NH09
 	["Crasmere", "Bay City"], //NH12
 	["Ahmedabad [HUB]", "Canton"], //IH02
     ]
