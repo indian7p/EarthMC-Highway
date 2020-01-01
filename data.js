@@ -21,6 +21,9 @@ citiesD = [
     {"x": 20777.0, "y": -4446.0, "name": "Canton"},
     {"x": 11223.0, "y": -4092.0, "name": "IndianOcean"},
     {"x": 11211.0, "y": -4446.0, "name": "East Muscat Junction"},
+    {"x": 13392.0, "y": -100.0, "name": "BruhTown"},
+    {"x": 13393.0, "y": -250.0, "name": "Addu City"},
+    {"x": 13460.0, "y": -250.0, "name": "East Addu Junction"},
 ]
 citiesL = {
 }
@@ -42,8 +45,11 @@ connections = {
 	["Doha Junction", "Houmt Souk"], //IH01c
 	["Doha Junction", "Pasargadae"], //IH03
 	["Ahmedabad [HUB]", "Harappa"], //NH08
-	["Male", "Baa Atoll"], //NH11
+	["Male", "Baa Atoll"], //NH02c
 	["East Muscat Junction", "IndianOcean"], //NH06 new
+	["Baa Atoll", "East Addu Junction"], //NH09 new a
+	["BruhTown", "East Addu Junction"], //NH09 new b
+	["Addu City", "East Addu Junction"], //NH11 new
     ],
     "wip_ice": [
         ["Latur", "Crasmere"], //NH04
