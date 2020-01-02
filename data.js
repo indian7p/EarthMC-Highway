@@ -50,6 +50,7 @@ connections = {
 	["Baa Atoll", "East Addu Junction"], //NH09 new a
 	["BruhTown", "East Addu Junction"], //NH09 new b
 	["Addu City", "East Addu Junction"], //NH11 new
+	["Doha Junction", "Manama City"], //IH03 extra
     ],
     "wip_ice": [
         ["Latur", "Crasmere"], //NH04
