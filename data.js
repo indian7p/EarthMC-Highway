@@ -39,7 +39,6 @@ connections = {
 	["Shiroda", "Crasmere"], //NH03
 	["Latur", "Mumbai"], //NH05a
         ["Latur", "Akola"], //NH05b
-        ["Ahmedabad [HUB]", "QuinnLand"], //NH07
      	["Ahmedabad [HUB]", "East Muscat Junction"], //IH01a
 	["Doha Junction", "East Muscat Junction"], //IH01b
 	["Doha Junction", "Houmt Souk"], //IH01c
@@ -54,8 +53,8 @@ connections = {
     ],
     "wip_ice": [
         ["Latur", "Crasmere"], //NH04
-	["Crasmere", "Bay City"], //NH12
 	["Ahmedabad [HUB]", "Canton"], //IH02
+	["Ahmedabad [HUB]", "QuinnLand"], //NH07
     ]
 }
 
