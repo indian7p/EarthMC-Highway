@@ -50,11 +50,12 @@ connections = {
 	["BruhTown", "East Addu Junction"], //NH09 new b
 	["Addu City", "East Addu Junction"], //NH11 new
 	["Doha Junction", "Manama City"], //IH03 extra
+	["Ahmedabad [HUB]", "QuinnLand"], //NH07
     ],
     "wip_ice": [
         ["Latur", "Crasmere"], //NH04
 	["Ahmedabad [HUB]", "Canton"], //IH02
-	["Ahmedabad [HUB]", "QuinnLand"], //NH07
+	
     ]
 }
 
