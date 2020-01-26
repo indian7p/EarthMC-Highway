@@ -24,6 +24,7 @@ citiesD = [
     {"x": 13392.0, "y": -100.0, "name": "BruhTown"},
     {"x": 13393.0, "y": -250.0, "name": "Addu City"},
     {"x": 13460.0, "y": -250.0, "name": "East Addu Junction"},
+    {"x": 11992.0, "y": -6045.0, "name": "Irab"},
 ]
 citiesL = {
 }
@@ -51,6 +52,7 @@ connections = {
 	["Addu City", "East Addu Junction"], //NH11 new
 	["Doha Junction", "Manama City"], //IH03 extra
 	["Ahmedabad [HUB]", "QuinnLand"], //NH07
+	["Harappa", "Irab"], //IH04
     ],
     "wip_ice": [
         ["Latur", "Crasmere"], //NH04
