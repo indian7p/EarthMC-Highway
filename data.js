@@ -25,6 +25,9 @@ citiesD = [
     {"x": 13393.0, "y": -250.0, "name": "Addu City"},
     {"x": 13460.0, "y": -250.0, "name": "East Addu Junction"},
     {"x": 11992.0, "y": -6045.0, "name": "Irab"},
+    {"x": 9692.0, "y": -4530.0, "name": "Abu Dhabi"},
+    {"x": 8850.0, "y": -4446.0, "name": "Desert Middle Junction"},
+    {"x": 8850.0, "y": -2889.0, "name": "Aden"},
 ]
 citiesL = {
 }
@@ -42,7 +45,7 @@ connections = {
         ["Latur", "Akola"], //NH05b
      	["Ahmedabad [HUB]", "East Muscat Junction"], //IH01a
 	["Doha Junction", "East Muscat Junction"], //IH01b
-	["Doha Junction", "Houmt Souk"], //IH01c
+	["Doha Junction", "Desert Middle Junction"], //IH01c
 	["Doha Junction", "Pasargadae"], //IH03
 	["Ahmedabad [HUB]", "Harappa"], //NH08
 	["Male", "Baa Atoll"], //NH02c
@@ -53,11 +56,13 @@ connections = {
 	["Doha Junction", "Manama City"], //IH03 extra
 	["Ahmedabad [HUB]", "QuinnLand"], //NH07
 	["Harappa", "Irab"], //IH04
+	["Doha Junction", "Abu Dhabi"], //IH01 AD Extention
+	["Desert Middle Junction", "Aden"], //IH01 AD Extention   
     ],
     "wip_ice": [
         ["Latur", "Crasmere"], //NH04
 	["Ahmedabad [HUB]", "Canton"], //IH02
-	
+	["Desert Middle Junction", "Houmt Souk"], //IH01d
     ]
 }
 
