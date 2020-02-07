@@ -52,14 +52,14 @@ connections = {
 	["UAE-Oman Junction", "Qatar"], //IH01c
 	["Qatar", "Desert Middle Junction"], //IH01d
 	["Desert Middle Junction", "Aden"], //IH01 AD Extention   
-	["Doha Junction", "Pasargadae"], //IH03
+	["Qatar", "Pasargadae"], //IH03
 	["Ahmedabad [HUB]", "Harappa"], //NH08
 	["Male", "Baa Atoll"], //NH02c
 	["East Muscat Junction", "IndianOcean"], //NH06 new
 	["Baa Atoll", "East Addu Junction"], //NH09 new a
 	["BruhTown", "East Addu Junction"], //NH09 new b
 	["Addu City", "East Addu Junction"], //NH11 new
-	["Doha Junction", "Manama City"], //IH03 extra
+	["Qatar", "Manama City"], //IH03 extra
 	["Ahmedabad [HUB]", "QuinnLand"], //NH07
 	["Harappa", "Irab"], //IH04
 	["Qatar", "Abu Dhabi"], //IH01 AD Extention
