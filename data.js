@@ -64,11 +64,12 @@ connections = {
 	["Qatar", "Manama City"], //IH03 extra
 	["Ahmedabad [HUB]", "QuinnLand"], //NH07
 	["Harappa", "Irab"], //IH04
-	["Qatar", "Abu Dhabi"], //IH01 AD Extention
-	["Desert Middle Junction", "Aden"], //IH01 AD Extention   
 	["UAE-Oman Junction", "Dubai"], //IH05a   
 	["UAE-Oman Junction", "Al Ain"], //IH05b
 	["Muscat", "Al Ain"], //IH05c   
+	["Qatar", "Abu Dhabi"], //IH01 AD Extention
+	["Desert Middle Junction", "Aden"], //IH01 AD Extention   
+	
     ],
     "wip_ice": [
         ["Latur", "Crasmere"], //NH04
