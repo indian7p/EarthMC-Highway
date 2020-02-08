@@ -48,10 +48,11 @@ connections = {
 	["Latur", "Mumbai"], //NH05a
         ["Latur", "Akola"], //NH05b
      	["Ahmedabad [HUB]", "East Muscat Junction"], //IH01a
-	["UAE-Oman Junction", "East Muscat Junction"], //IH01b
-	["UAE-Oman Junction", "Qatar"], //IH01c
-	["Qatar", "Desert Middle Junction"], //IH01d
-	["Desert Middle Junction", "Aden"], //IH01 AD Extention   
+	["East Muscat Junction", "New Dubai"], //IH01b
+	["UAE-Oman Junction", "New Dubai"], //IH01c
+	["UAE-Oman Junction", "Qatar"], //IH01d
+	["Qatar", "Desert Middle Junction"], //IH01e
+	["Desert Middle Junction", "Aden"], //IH06 
 	["Qatar", "Pasargadae"], //IH03
 	["Ahmedabad [HUB]", "Harappa"], //NH08
 	["Male", "Baa Atoll"], //NH02c
@@ -71,7 +72,7 @@ connections = {
     "wip_ice": [
         ["Latur", "Crasmere"], //NH04
 	["Ahmedabad [HUB]", "Canton"], //IH02
-	["Desert Middle Junction", "Houmt Souk"], //IH01e
+	["Desert Middle Junction", "Houmt Souk"], //IH01f
     ]
 }
 
