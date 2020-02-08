@@ -32,6 +32,7 @@ citiesD = [
     {"x": 10159.0, "y": -4251.0, "name": "Al Ain"},
     {"x": 10273.0, "y": -3800.0, "name": "Muscat"},
     {"x": 10084.0, "y": -4798.0, "name": "Dubai"},
+    {"x": 10672.0, "y": -4446.0, "name": "New Dubai"},
 ]
 citiesL = {
 }
